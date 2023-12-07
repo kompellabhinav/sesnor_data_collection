@@ -49,6 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   List<double>? _accelerometerValues;
   List<double>? _userAccelerometerValues;
+  List<double>? _Values;
   List<double>? _gyroscopeValues;
 
   final _streamSubscriptions = <StreamSubscription<dynamic>>[];
